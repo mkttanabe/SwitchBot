@@ -110,17 +110,6 @@ static esp_gatt_id_t user_chr2_id = {
     },
     .inst_id = 0,
 };
-/*
-static esp_bt_uuid_t remote_filter_char_uuid = {
-    .len = ESP_UUID_LEN_128,
-    .uuid = {
-        .uuid128[15]=0xcb,.uuid128[14]=0xa2,.uuid128[13]=0x00,.uuid128[12]=0x02,
-        .uuid128[11]=0x22,.uuid128[10]=0x4d,.uuid128[9] =0x11,.uuid128[8] =0xe6,
-        .uuid128[7] =0x9f,.uuid128[6] =0xb8,.uuid128[5] =0x00,.uuid128[4] =0x02,
-        .uuid128[3] =0xa5,.uuid128[2] =0xd5,.uuid128[1] =0xc5,.uuid128[0] =0x1b,
-    },
-};
-*/
 
 // BLE scan parameters
 static esp_ble_scan_params_t ble_scan_params = {
